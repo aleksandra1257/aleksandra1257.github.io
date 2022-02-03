@@ -1,0 +1,141 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <title>Links website</title>
+     <script src="https://unpkg.com/feather-icons"></script>
+     <style>
+       body {
+         background: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80) no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         padding: 2rem;
+       }
+ 
+       .container {
+         width: 100%;
+         height: 100%;
+         padding-right: 15px;
+         padding-left: 15px;
+         margin-right: auto;
+         margin-left: auto;
+       }
+ 
+       .links-container {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+       }
+ 
+       .links-container a {
+         width: 80%;
+         box-shadow: 2px 2px 0 #444;
+       }
+ 
+       .name {
+         background-color: rgba(121, 85, 72, 0.4);
+         color: #ccc;
+         text-shadow: 4px 4px 0 #444;
+         box-shadow: 2px 2px 0 #444;
+         font-size: 18px;
+       }
+ 
+       .subtext {
+         font-size: 16px;
+         background-color: rgba(121, 85, 72, 0.4);
+         color: #ccc;
+         text-shadow: 1px 1px 0 #444;
+         box-shadow: 2px 2px 0 #444;
+       }
+ 
+       svg {
+         stroke: #6d4d41;
+         transform: scale(1.5);
+       }
+ 
+       .portrait {
+         border-color: #b39b92 !important;
+         width: 100%;
+         max-width: 350px;
+         height: auto;
+         max-height: 500px;
+       }
+ 
+       span {
+         display: block;
+       }
+ 
+       .skew-1 {
+         -ms-transform: skewX(20deg); 
+         -webkit-transform: skewX(20deg); 
+         transform: skewX(20deg);
+       }
+       .skew-text-1 {
+         -ms-transform: skewX(-20deg); 
+         -webkit-transform: skewX(-20deg); 
+         transform: skewX(-20deg);
+       }
+ 
+       .skew-2 {
+         -ms-transform: skewX(-20deg); 
+         -webkit-transform: skewX-(20deg); 
+         transform: skewX(-20deg);
+       }
+       .skew-text-2 {
+         -ms-transform: skewX(20deg); 
+         -webkit-transform: skewX(20deg);
+         transform: skewX(20deg);
+       }
+ 
+       @media (min-width: 768px) {
+         .link {
+           width: 100%;
+         }
+       }
+       @media (min-width: 576px) {
+         .container {
+           max-width: 540px;
+         }
+ 
+         .name {
+           font-size: 36px;
+         }
+ 
+       }
+     </style>
+   </head>
+   <body>
+     <!-- Content container -->
+     <div class="container">
+ 
+       <!-- Image and name container -->
+       <div style="text-align: center">
+         <img loading="lazy" src="slika.jpg" class="portrait w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-dark-grey" alt="image" style="border-radius: 5%;">
+         <h1 class="name"><span class="name w3-padding w3-round" style="font-weight: bolder;">Aleksandra Ilic</span></h1>
+         <h2 class="subtext name w3-padding w3-round" style="font-weight: bolder;">aleksandra@gmail.com</2>
+         <h1 class="subtext name w3-padding w3-round" style="font-weight: bolder;">Motiv zivota: ... </h3>
+         <h1 class="subtext name w3-padding w3-round" style="font-weight: bolder;">Mane: ...</h4>
+         <h1 class="subtext name w3-padding w3-round" style="font-weight: bolder;">Vrline: ...</h5>
+        <img loading="lazy" src="tortilja.jpg" class="portrait w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-dark-grey" alt="image" style="border-radius: 5%;">
+        <img loading="lazy" src="sladoled.jpg" class="portrait w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-dark-grey" alt="image" style="border-radius: 5%;">
+        <img loading="lazy" src="voce.jpg" class="portrait w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-dark-grey" alt="image" style="border-radius: 5%;">
+
+
+         </div>
+       <br><br>
+      
+     
+      
+      </footer>
+     </div>
+     <script>
+       feather.replace()
+     </script>
+   </body>  
+ </html>
